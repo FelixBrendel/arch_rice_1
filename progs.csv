@@ -67,3 +67,4 @@ A,brave-bin,"is an elegant browser with built-in adblocking, tor and other featu
 ,libev-dev,"is needed for the rice"
 ,libx11-xcb-dev,"is needed for the rice"
 A,picom-ibhagwan-git,"picom fork"
+,feh,"is used for desktop backgrounds"
