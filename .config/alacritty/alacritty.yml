@@ -13,9 +13,9 @@ font:
   # I'm using JetBrains fonts, which I recommend, but feel free to edit it !
   normal:
     style: Medium
-    family: JetBrains Mono
+    family: Noto Sans Mono
   # sets font size to 14px
-  size: 14.0
+  size: 12.0
 
 colors:
   # sets background color to light gray (#eee) and font color to white (#fff)
