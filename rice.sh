@@ -6,7 +6,7 @@ pushd $user_name > /dev/null
 #  RUNNING LARBS
 #
 pacman -S --noconfirm archlinux-keyring
-pacman -S --noconfirm --needed pacman-contrib
+pacman -S --noconfirm --needed pacman-contrib git
 
 curl -LO larbs.xyz/larbs.sh
 
