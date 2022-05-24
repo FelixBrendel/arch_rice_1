@@ -10,7 +10,7 @@ pacman -S --noconfirm --needed pacman-contrib
 
 curl -LO larbs.xyz/larbs.sh
 
-source ./larbs.sh                                \
+. ./larbs.sh                                     \
   -r https://github.com/FelixBrendel/arch_rice_1 \
   -b main                                        \
   -p https://raw.githubusercontent.com/FelixBrendel/arch_rice_1/main/progs.csv
