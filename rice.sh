@@ -22,7 +22,8 @@ mkdir /home/$name/code
 # installing doom
 git clone --depth 1 https://github.com/doomemacs/doomemacs  /home/$name/.config/emacs
 git clone --depth 1 https://github.com/felixbrendel/.doom.d /home/$name/.config/doom
-/home/$name/.config/emacs/bin/doom install
+runuser -u $name -- /home/$name/.config/emacs/bin/doom install
+runuser -u $name -- /home/$name/.config/emacs/bin/doom sync
 
 #cleanup this repo
 rm -rf /home/$name/rice.sh/
